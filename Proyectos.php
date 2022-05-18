@@ -23,18 +23,19 @@
             include ('Modulos/Nav.php');
         ?>
         <!-- Lineas de trabajo -->
-        <section class="projects-section bg-light" id="projects">
-            <div class="text-center">
+        <section class="signup-section bg-black" id="projects">
+            <div class="text-center text-light">
                 <h2>Lineas de Trabajo</h2>
+                <br><br>
             </div>
             <div class="container px-4 px-lg-5">
                 <!-- Linea 1 -->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-7 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="img/estuSue.png" alt="..." /></div>
+                    <div class="col-xl-7 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="img/lineasTrabajo/estuSue.png" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text-left text-center text-lg-left">
-                            <h4>Ingeniería & Construcción</h4>
-                            <ul class="text-black-50 mb-0">
+                            <h4 class="text-light">Ingeniería & Construcción</h4>
+                            <ul class="text-light mb-0">
                                 <li>Consultoría y Planicación de Obras</li>
                                 <li>Ejecución de Obras Civiles</li>
                                 <li>Licencia de Edicaciones</li>
@@ -52,8 +53,8 @@
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text-rigth text-center text-lg-left">
-                            <h4>Acabados & Mantenimiento</h4>
-                            <ul class="text-black-50 mb-0">
+                            <h4 class="text-light">Acabados & Mantenimiento</h4>
+                            <ul class="text-light mb-0">
                                 <li>Sistema Drywall</li>
                                 <li>Acabados de Pintura</li>
                                 <li>Revestimiento de Edificaciones</li>
@@ -64,15 +65,15 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-7 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="img/drywall.jpg" alt="..." /></div>
+                    <div class="col-xl-7 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="img/lineasTrabajo/drywall.jpg" alt="..." /></div>
                 </div>
                 <!-- Linea 3 -->
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-7 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="img/pisoIndrus.jpg" alt="..." /></div>
+                    <div class="col-xl-7 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="img/lineasTrabajo/pisoIndrus.jpg" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text-left text-center text-lg-left">
-                            <h4>Pisos Industriales</h4>
-                            <ul class="text-black-50 mb-0">
+                            <h4 class="text-light">Pisos Industriales</h4>
+                            <ul class="text-light mb-0">
                                 <li>Losas de Concreto</li>
                                 <li>Revestimiento para pisos</li>
                                 <li>Vitricación de Pisos</li>
@@ -87,8 +88,8 @@
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text-rigth text-center text-lg-left">
-                            <h4>Eléctricidad & Telecomunicaciones</h4>
-                            <ul class="text-black-50 mb-0">
+                            <h4 class="text-light">Eléctricidad & Telecomunicaciones</h4>
+                            <ul class="text-light mb-0">
                                 <li>Instalaciones de sistemas de puesta a tierra</li>
                                 <li>Cableado estructurado (Panduit CAT 6)</li>
                                 <li>Montaje y desmontaje de sistemas eléctricos</li>
@@ -96,12 +97,16 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-7 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="img/pryt1.jpg" alt="..." /></div>
+                    <div class="col-xl-7 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="" alt="..." /></div>
                 </div>
+            </div>
+        </section>
+        <section class="projects-section bg-light" id="projects">
+             <div class="container px-4 px-lg-5">
                 <!-- Obra realizada 1 -->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="text-center"><h2>Obras realizadas</h2></div>
-                    <div class="col-lg-6" ><img class="img-fluid" src="img/almaResi.jpg" alt="..." /></div>
+                    <div class="col-lg-6" ><img class="img-fluid" src="img/obrasEjecutadas/almaResi.jpg" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -116,7 +121,7 @@
                 </div>
                 <!-- Obra realizada 2 -->
                 <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="img/cancha.jpg" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="img/obrasEjecutadas/cancha.jpg" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -146,7 +151,7 @@
                 </div>
                 <!-- Obra realizada 4 -->
                 <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="img/almMeta.jpg" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="img/obrasEjecutadas/almMeta.jpg" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">

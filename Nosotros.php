@@ -23,7 +23,6 @@
             include ('Modulos/Nav.php');
         ?>
         <!-- Nosotros-->
-        
         <section class="about-section text-center" id="about">
             <img  class="img-fluid" src="img/nosotros.jpg" alt="" height="500" width="75%"/>
             <br><br>
@@ -83,7 +82,41 @@
                     </div>
                 </div>
             </div>
-
+        </section>    
+        <!-- Nuestros clientes -->
+        <section class="projects-section bg-light" id="clientes">
+            <div class="text-center">
+                <h2>Nuestros Clientes</h2>
+                <br><br>
+            </div>
+            <div class="container px-4 px-lg-5">    
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <!-- Cliente 1 -->
+                    <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/mtc.png" alt="..." /></div>
+                    <!-- Cliente 2 -->
+                    <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/avinka.jpg" alt="..." /></div>
+                    <!-- Cliente 3 -->
+                    <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/vetaDorada.jpg" alt="..." /></div>
+                    <!-- Cliente 4 -->
+                    <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/JOHESALOGO.jpg" alt="..." /></div>
+                    <!-- Cliente 5 -->
+                    <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/imagina.jpg" alt="..." /></div>
+                    <!-- Cliente 6 -->
+                    <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/pasteleriaAncky.png" alt="..." /></div>
+                    <!-- Cliente 7 -->
+                    <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/acFarma.png" alt="..." /></div>
+                    <!-- Cliente 8 -->
+                    <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/claro.jpg" alt="..." /></div>
+                    <!-- Cliente 9 -->
+                    <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/entel.png" alt="..." /></div>
+                    <!-- Cliente 10 -->
+                    <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/sanJuanBautista.png" alt="..." /></div>
+                    <!-- Cliente 11 -->
+                    <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/techMahindra.jpg" alt="..." /></div>
+                    <!-- Cliente 12 -->
+                    <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/sanFernando.jpg" alt="..." /></div>
+                </div>
+            </div>
         </section>
         <!-- Footer-->
         <?php

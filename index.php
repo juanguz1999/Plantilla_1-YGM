@@ -19,9 +19,7 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <?php
-            include ('Modulos/Nav.php');
-        ?>
+        <?php include ('Modulos/Nav.php'); ?>
         <!-- Masthead-->
         <header class="masthead bg-secondary">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
@@ -35,10 +33,9 @@
                 </div>
             </div>
         </header>
+        
         <!-- Footer-->
-        <?php
-        include ('Modulos/Footer.php');  
-        ?>
+        <?php include ('Modulos/Footer.php'); ?>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
