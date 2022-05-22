@@ -11505,7 +11505,7 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: transparent;
+    background-color: #191919;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -11615,6 +11615,7 @@ body {
 
 .projects-section {
   padding: 3rem;
+  background-color: #dcdcdc;
 }
 .projects-section .featured-text-left {
   padding: 2rem;
@@ -11719,4 +11720,5 @@ body {
 
 .footer {
   padding: 5rem 0;
+  background-color: #191919;
 }

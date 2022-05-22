@@ -52,18 +52,18 @@
                     </div>
                 </div>
             </div>
-        </section>
+        
         <!-- Contact-->
-        <section class="contact-section bg-black">
+        <section class="contact-section">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">----------</h4>
+                                <i class="fab fa-facebook-f text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Facebook</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                                <div class="small text-black-50">YGM Construccion y Acabado SAC</div>
                             </div>
                         </div>
                     </div>
@@ -95,16 +95,16 @@
                     <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
                 </div>
             </div>
-        </section>
+        </section></section>
 
 
         <section class="ubication-section" id="ubication">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
-                    <div class="col-md-10 col-lg-8 mx-auto text-center">
+                    <div class="col-md-10 col-lg-12 mx-auto text-center">
                         <i class="fas fa-map-marked-alt fa-2x mb-5 text-white"></i>
                         <h2 class="text-white mb-5">¡Te esperamos!</h2>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d975.0613449298697!2d-76.9904622!3d-12.1636904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x49533dd79da7d674!2zMTLCsDA5JzQ5LjMiUyA3NsKwNTknMjMuMyJX!5e0!3m2!1ses!2spe!4v1652812444343!5m2!1ses!2spe" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d975.0613449298697!2d-76.9904622!3d-12.1636904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x49533dd79da7d674!2zMTLCsDA5JzQ5LjMiUyA3NsKwNTknMjMuMyJX!5e0!3m2!1ses!2spe!4v1652812444343!5m2!1ses!2spe" width="1000px" height="650px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>    
                 </div>
             </div>

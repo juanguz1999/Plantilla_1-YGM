@@ -17,15 +17,54 @@
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body id="page-top">
+    <body id="page-top" class="bg-black">
         <!-- Navigation-->
         <?php
             include ('Modulos/Nav.php');
         ?>
         <!-- Nosotros-->
-        <section class="about-section text-center" id="about">
-            <img  class="img-fluid" src="img/nosotros.jpg" alt="" height="500" width="75%"/>
-            <br><br>
+        
+        <section class="container bg-black" style="margin-top: 150px">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/nosotros.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/lineasTrabajo/drywall.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/obrasEjecutadas/cancha.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </section>
+        <section class="about-section text-center" id="about">    
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
@@ -43,13 +82,6 @@
                     </div>
                     <div class="col-lg-8">
                         <h2 class="text-white mb-4">Vision</h2>
-                        <div class="row gx-4 gx-lg-5 ">
-                            <p class="text-white-50 text-justify">
-                                Consolidarnos como empresa líder en el mercado, 
-                                capaz de otorgar soluciones rápidas y efectivas a un 
-                                costo competitivo para nuestros clientes.   
-                            </p>
-                        </div>
                         <div class="row gx-4 gx-lg-5 ">
                             <p class="text-white-50 text-justify">
                                 Consolidarnos como empresa líder en el mercado, 
@@ -84,7 +116,7 @@
             </div>
         </section>    
         <!-- Nuestros clientes -->
-        <section class="projects-section bg-light" id="clientes">
+        <section class="projects-section" id="clientes">
             <div class="text-center">
                 <h2>Nuestros Clientes</h2>
                 <br><br>
