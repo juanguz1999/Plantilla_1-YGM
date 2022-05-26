@@ -23,45 +23,44 @@
         include ('Modulos/Nav.php');
         ?>
         <!-- Nosotros-->
-
         <section class="about-section">
             <div class="container" style="margin-top: 30px">
-            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="img/nosotros.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Construcción Cancha de Minerales 7,000m2</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="img/lineasTrabajo/drywall.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Acabados & Mantenimiento</h2>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/obrasEjecutadas/cancha.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h2>Almacén de Residuos Unidad Minera Veta Dorada</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="img/nosotros.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Construcción Cancha de Minerales 7,000m2</h2>
-                        </div>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="img/lineasTrabajo/drywall.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Acabados & Mantenimiento</h2>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/obrasEjecutadas/cancha.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h2>Almacén de Residuos Unidad Minera Veta Dorada</h2>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
-                </div>
         </section>
         <section class="about-section text-center" id="about">    
             <div class="container col-9">
@@ -182,7 +181,6 @@
                     <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/sanJuanBautista.png" alt="..." /></div>
                     <!-- Cliente 12 -->
                     <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/entel.png" alt="..." /></div>
-                    
                 </div>
             </div>
         </section>
@@ -194,10 +192,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>

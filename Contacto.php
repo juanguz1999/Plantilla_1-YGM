@@ -22,20 +22,13 @@
         <?php
             include ('Modulos/Nav.php');
         ?>
-        <!-- Signup-->
+        <!-- EmailContact -->
         <section class="signup-section" id="signup">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
                         <i class="far fa-envelope fa-2x mb-2 text-white"></i>
                         <h2 class="text-white mb-5">¡Solicitar informacion!</h2>
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
                         <div class="row input-group-newsletter">
                             <div class="col">
                                 <form class="form-signup" method="post" action='PHP/enviarEmail.php'>
@@ -96,8 +89,6 @@
                 </div>
             </div>
         </section></section>
-
-
         <section class="ubication-section" id="ubication">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
@@ -109,7 +100,6 @@
                 </div>
             </div>
         </section>
-
         <!-- Footer-->
         <?php
         include ('Modulos/Footer.php');  
@@ -118,10 +108,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
