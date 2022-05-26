@@ -56,7 +56,7 @@
                                 <i class="fab fa-facebook-f text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Facebook</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">YGM Construccion y Acabado SAC</div>
+                                <div class="text-black-50">YGM Construccion y Acabado SAC</div>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">ptoyectos@ygmperu.com</a></div>
+                                <div class="text-black-50">ptoyectos@ygmperu.com</div>
                             </div>
                         </div>
                     </div>
@@ -76,16 +76,14 @@
                                 <i class="fas fa-mobile-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Tlefonos</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">+51 982713197</div>
-                                <div class="small text-black-50">+51 990227053</div>
+                                <div class="text-black-50">+51 982713197</div>
+                                <div class="text-black-50">+51 990227053</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                     <a class="mx-2" href="https://www.facebook.com/YGMconstruccionyacabadosSAC/"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </section></section>
