@@ -475,6 +475,11 @@ mark,
   height: auto;
 }
 
+.img-nosotros {
+  max-width: 600px;
+  height: 500px;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;

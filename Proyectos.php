@@ -24,7 +24,8 @@
         ?>
         <!-- Lineas de trabajo -->
         <section class="projects-section" id="projects">
-            <div class="text-center text-light">
+            <div class="text-center text-dark">
+                <br><br><br><br>
                 <h2>Lineas de Trabajo</h2>
                 <br><br>
             </div>
@@ -117,104 +118,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6" ><img class="img-fluid" src="" alt="..." /></div>
+                    <div class="col-lg-6" ><img class="img-fluid" src="img/lineasTrabajo/telecom.jpg" alt="..." /></div>
                 </div>
             </div>
         </section>
         <section class="projects-section" id="projects">
-            <div class="text-center"><h2>Obras realizadas</h2></div><br>
-             <div class="container px-4 px-lg-5">
-                <!-- Obra realizada 1 -->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6" ><img class="img-fluid" src="img/obrasEjecutadas/almaResi.jpg" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Almacén de Residuos Unidad Minera Veta Dorada</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                                    <hr class="d-none d-lg-block mb-0 ms-0" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><br>
-                <!-- Obra realizada 2 -->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="img/obrasEjecutadas/cancha.jpg" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Construcción Cancha de Minerales 7,000m2 Unidad Minera Veta Dorada</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                                    <hr class="d-none d-lg-block mb-0 me-0" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><br>
-                <!-- Obra realizada 3 -->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6" ><img class="img-fluid" src="" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Montaje, Armado y Mantenimiento de Tableros Eléctricos.</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                                    <hr class="d-none d-lg-block mb-0 ms-0" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><br>
-                <!-- Obra realizada 4 -->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="img/obrasEjecutadas/almMeta.jpg" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Fabricación y Montaje de Estructuras Metálicas</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                                    <hr class="d-none d-lg-block mb-0 me-0" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><br>
-                <!-- Obra realizada 5 -->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6" ><img class="img-fluid" src="" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Construcción e Instalación de PTAR Unidad Minera Veta Dorada</h4>
-                                    <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else, along with a description.</p>
-                                    <hr class="d-none d-lg-block mb-0 ms-0" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div><br>
-                <!-- Obra realizada 6 -->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Saneamiento para Campamentos Unidad Minera Veta Dorada</h4>
-                                    <p class="mb-0 text-white-50">Another example of a project with its respective description. These sections work well responsively as well, try this theme on a small screen!</p>
-                                    <hr class="d-none d-lg-block mb-0 me-0" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div class="text-center"><a href="Obras.php" class="btn btn-info"> ¡Obras Realizadas!</a></div><br>
         </section>
         <!-- Footer-->
         <?php

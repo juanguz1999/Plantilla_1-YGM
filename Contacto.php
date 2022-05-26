@@ -27,7 +27,7 @@
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+                        <i class="far fa-envelope fa-2x mb-2 text-white"></i>
                         <h2 class="text-white mb-5">¡Solicitar informacion!</h2>
                         <!-- * * * * * * * * * * * * * * *-->
                         <!-- * * SB Forms Contact Form * *-->
@@ -39,11 +39,11 @@
                         <div class="row input-group-newsletter">
                             <div class="col">
                                 <form class="form-signup" method="post" action='PHP/enviarEmail.php'>
-                                    <input class="form-control" type="email" name='email' id="email" placeholder="Ingresa tu email..." aria-label="Enter email address..." data-sb-validations="required,email" />
+                                    <input class="form-control" type="email" name='email' id="email" placeholder="Ingresa tu email..." aria-label="Enter email address..." data-sb-validations="required,email" required=""/>
                                     <br>
-                                    <input class="form-control" type="text" name='nombre' id="nombre" placeholder="Ingresa tu Nombre..." aria-label="Enter email address..." data-sb-validations="required,email" />
+                                    <input class="form-control" type="text" name='nombre' id="nombre" placeholder="Ingresa tu Nombre..." aria-label="Enter email address..." data-sb-validations="required,email" required=""/>
                                     <br>
-                                    <input class="form-control" type="text" name='mensaje' id="mensaje" placeholder="¿Que servicio necesita?" aria-label="Enter email address..." data-sb-validations="required,email" />
+                                    <input class="form-control" type="text" name='mensaje' id="mensaje" placeholder="¿Que servicio necesita?" aria-label="Enter email address..." data-sb-validations="required,email" required=""/>
                                     <br>
                                     <div class="col-auto"><button class="btn btn-primary"type="submit">Enviar</button></div>
                                 </form>

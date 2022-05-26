@@ -5,7 +5,7 @@
 	$mensaje = "Nombre: ".$nombre."<br> Email: $email<br> Mensaje:".$_POST['mensaje'];
 
 
-	if(mail('elcrema16_12@hotmail.com', $asunto, $mensaje)){
+	if(mail('ptoyectos@ygmperu.com', $asunto, $mensaje)){
 		echo "Correo enviado";
                 window.location.replace("../../Plantilla_1-YGM");
 	} else {

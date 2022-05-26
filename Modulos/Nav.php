@@ -38,7 +38,16 @@
                     <li class="nav-item"><a class="nav-link" href="#ubication">Ubicanos</a></li>
                     <li class="nav-item"><a class="nav-link" href="Nosotros.php#clientes">Nuestros Clientes</a></li>
                 </ul>
-            <?php }}}}?>
+            <?php } else {if($link == "/Plantilla_1-YGM/Obras.php"){?>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../Plantilla_1-YGM">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Nosotros.php">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Proyectos.php">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contacto.php">Contactanos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#ubication">Ubicanos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Nosotros.php#clientes">Nuestros Clientes</a></li>
+                </ul>
+            <?php }}}}}?>
         </div>
     </div>
 </nav>

@@ -37,21 +37,18 @@
                         <img src="img/nosotros.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h2>Construcción Cancha de Minerales 7,000m2</h2>
-                            <p>Some representative placeholder content for the first slide.</p>
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="2000">
                         <img src="img/lineasTrabajo/drywall.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h2>Acabados & Mantenimiento</h2>
-                            <p>Some representative placeholder content for the second slide.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="img/obrasEjecutadas/cancha.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h2>Almacén de Residuos Unidad Minera Veta Dorada</h2>
-                            <p>Some representative placeholder content for the third slide.</p>
                         </div>
                     </div>
                 </div>
@@ -72,9 +69,9 @@
                     <div class="col-lg-7">
                         <div class="text-center h-100 project">
                             <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h2 class="text-black mb-4">Somos</h2>
-                                    <p class="text-black-50 centrar text-justify">
+                                <div class="project-text w-100 my-auto text-center">
+                                    <h2 class="text-black mb-4 centrar text-justify text-lg-center">Somos</h2>
+                                    <p class=" text-black-50 centrar text-justify">
                                         Una empresa dedicada a la construcción,
                                         diseño, ejecución y supervisión de obras civiles.
                                         Trabajamos con responsabilidad y honestidad,
@@ -84,12 +81,11 @@
                                         el sistema integrado de gestión en seguridad y salud ocupacional.
                                         Contamos con los equipos y maquinarias para distintos proyectos. 
                                     </p>
-                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                    <hr class="d-none d-lg-block mb-0 ms-0" /><br><br><br><br>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4" ><img class="img-fluid" src="img/lineasTrabajo/drywall.jpg" alt="..." /></div>
                 </div><br>
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-7">
@@ -111,7 +107,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4" ><img class="img-fluid" src="img/lineasTrabajo/drywall.jpg" alt="..." /></div>
+                    <div class="col-lg-4" ><img class="img-nosotros" src="img/nosotros/mision.png" alt="..." /></div>
                 </div><br>
 
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
@@ -130,7 +126,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4" ><img class="img-fluid" src="img/lineasTrabajo/drywall.jpg" alt="..." /></div>
+                    <div class="col-lg-4" ><img class="img-nosotros" src="img/nosotros/vision.png" alt="..." /></div>
                 </div><br>
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-7">
@@ -150,7 +146,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4" ><img class="img-fluid" src="img/lineasTrabajo/drywall.jpg" alt="..." /></div>
+                    <div class="col-lg-4" ><img class="img-nosotros" src="img/nosotros/valores.png" alt="..." /></div>
                 </div><br>
             </div>
         </section>    
@@ -179,13 +175,14 @@
                     <!-- Cliente 8 -->
                     <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/claro.jpg" alt="..." /></div>
                     <!-- Cliente 9 -->
-                    <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/entel.png" alt="..." /></div>
-                    <!-- Cliente 10 -->
-                    <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/sanJuanBautista.png" alt="..." /></div>
-                    <!-- Cliente 11 -->
                     <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/techMahindra.jpg" alt="..." /></div>
-                    <!-- Cliente 12 -->
+                    <!-- Cliente 10 -->
                     <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/sanFernando.jpg" alt="..." /></div>
+                    <!-- Cliente 11 -->
+                    <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/sanJuanBautista.png" alt="..." /></div>
+                    <!-- Cliente 12 -->
+                    <div class="col-lg-6" ><img class="img-fluid" src="img/clientes/entel.png" alt="..." /></div>
+                    
                 </div>
             </div>
         </section>
